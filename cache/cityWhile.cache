@@ -11,14 +11,14 @@ st. louis */
 
 let cities = []
 let i = 0
-let doneWithCities = 0
+let doneWithCities = false
 while (doneWithCities == false) {
     cities[i] = prompt("Enter the next city: ")
     i++
     doneWithCities = confirm("Are you done with cities?")
     }
-    
+
 while (i < cities.length) {
-    console.log(cities.toLowerCase)
+    console.log(cities[i].toLowerCase)
     i++
     }
