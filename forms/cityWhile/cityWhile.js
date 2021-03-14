@@ -17,8 +17,8 @@ while (doneWithCities == false) {
     i++
     doneWithCities = confirm("Are you done with cities?")
     }
-
-while (i < cities.length) {
-    console.log(cities[i].toLowerCase)
-    i++
-    }
+console.log(cities)
+/*while (i < cities.length) {
+    let userCites = cities.toString()
+    console.log(userCities.toLowerCase)
+    }*/
