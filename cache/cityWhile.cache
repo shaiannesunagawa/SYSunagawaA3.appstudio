@@ -19,6 +19,6 @@ while (doneWithCities == false) {
     }
     
 while (i < cities.length) {
-    console.log(cities[i])
+    console.log(cities.toLowerCase)
     i++
     }
