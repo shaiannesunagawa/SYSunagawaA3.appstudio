@@ -25,7 +25,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Label1.json"
+        "lblHeader.json"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Label2.json"
+        "lblProductList.json"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Label3.json"
+        "lblWishList.json"
       ]
     },
     {
@@ -52,7 +52,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Input1.json"
+        "inptName.json"
       ]
     },
     {
@@ -61,7 +61,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Input2.json"
+        "inptProduct.json"
       ]
     },
     {
@@ -70,7 +70,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Button1.json"
+        "btnViewWishList.json"
       ]
     },
     {
@@ -79,7 +79,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Button2.json"
+        "btnAddItem.json"
       ]
     },
     {
@@ -88,7 +88,16 @@
         "forms",
         "dogStore",
         "Elements",
-        "Label4.json"
+        "lblMessage.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "btnProductList.json"
       ]
     }
   ],
