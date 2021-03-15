@@ -99,6 +99,15 @@
         "Elements",
         "btnProductList.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "lblPriceList.json"
+      ]
     }
   ],
   "class": "",

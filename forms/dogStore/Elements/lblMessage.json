@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4",
-  "appearance": "primary",
+  "appearance": "secondary",
   "backgroundColor": "",
   "borderRadius": "0",
   "bottom": "auto",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 62,
-  "value": "",
+  "top": 58,
+  "value": "Add items to your wish list below!",
   "width": 159
 }

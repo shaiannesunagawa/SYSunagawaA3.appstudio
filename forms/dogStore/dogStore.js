@@ -1,14 +1,11 @@
 name = []
-let products = ["Crocheted Dog Toy, $10.00", "Slow Feeder Bowl, $14.00", "Pawz Grey Treat Jar, $20.00", "Blue Sweet Dreams Thermal Pajamas, $30.00", "Checker Chewy Vuiton Bowl, #32.00", "Red Heart Sweater Dress, $27.00", "Velvet Hair Bow - Sun Kissed, $12.00", "Into the Wild Leash, $27.00"]
-let wishList = []
-let welcomeMessage = "Add items to your wish list below!"
+var products = ["Crocheted Dog Toy", "Slow Feeder Bowl", "Pawz Grey Treat Jar", "Blue Sweet Dreams Thermal Pajamas", "Checker Chewy Vuiton Bowl", "Red Heart Sweater Dress", "Velvet Hair Bow - Sun Kissed", "Into the Wild Leash"]
+var productPrice = ["$10.00", "$14.00", "$20.00", "$30.00", "$32.00", "$27.00", "$12.00", "$27.00"]
+var wishList = []
 
-dogImage.onclick = function(){
-  lblMessage.value = welcomeMessage
-}
-
-btnProductList.onclick = function(){
-    lblProductList.value = products
+btnProductList.onclick=function(){
+   lblProductList.value = products
+    lblPriceList.value = productPrice
 }
 
 btnAddItem.onclick = function(){
@@ -25,3 +22,4 @@ btnAddItem.onclick = function(){
 btnViewWishList.onclick = function(){
   lblWishList.value = wishList
 }
+

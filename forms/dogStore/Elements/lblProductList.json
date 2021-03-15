@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4",
-  "appearance": "light",
+  "appearance": "primary",
   "backgroundColor": "#019cdb",
   "borderRadius": "5",
   "bottom": "auto",
@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblProductList",
   "labelStyle": "text",
-  "left": 17,
+  "left": 16,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 119,
+  "top": 120,
   "value": "",
-  "width": 289
+  "width": 197
 }
