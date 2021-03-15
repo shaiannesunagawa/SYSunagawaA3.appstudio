@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4",
-  "appearance": "secondary",
+  "appearance": "primary",
   "backgroundColor": "",
   "borderRadius": "0",
   "bottom": "auto",
@@ -15,7 +15,7 @@
   "fontSize": "",
   "fontStyle": "italic",
   "fontWeight": "",
-  "height": "auto",
+  "height": 52,
   "hidden": "",
   "id": "lblMessage",
   "labelStyle": "text",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 63,
+  "top": 62,
   "value": "",
   "width": 159
 }

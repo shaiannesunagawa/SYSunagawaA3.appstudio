@@ -1,16 +1,17 @@
 name = []
 let products = ["Crocheted Dog Toy, $10.00", "Slow Feeder Bowl, $14.00", "Pawz Grey Treat Jar, $20.00", "Blue Sweet Dreams Thermal Pajamas, $30.00", "Checker Chewy Vuiton Bowl, #32.00", "Red Heart Sweater Dress, $27.00", "Velvet Hair Bow - Sun Kissed, $12.00", "Into the Wild Leash, $27.00"]
 let wishList = []
+let welcomeMessage = "Add items to your wish list below!"
 
-dogImage.onclick=function(){
-  lblMessage.value = "Add items to your wish list below!"
+dogImage.onclick = function(){
+  lblMessage.value = welcomeMessage
 }
 
-btnProductList.onclick=function(){
+btnProductList.onclick = function(){
     lblProductList.value = products
 }
 
-btnAddItem.onclick=function(){
+btnAddItem.onclick = function(){
   let userProduct = inptProduct.value
   i = products.includes(userProduct)
   if (i == true){
@@ -19,9 +20,8 @@ btnAddItem.onclick=function(){
   }
   if (i == false)
     lblWishList.value = `We can't find ${userProduct} in the product list.`
-
 }
 
-btnViewWishList.onclick=function(){
+btnViewWishList.onclick = function(){
   lblWishList.value = wishList
 }
