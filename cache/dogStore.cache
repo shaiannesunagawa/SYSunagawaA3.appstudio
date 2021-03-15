@@ -4,16 +4,13 @@ let productPrice = ["$10.00", "$14.00", "$20.00", "$30.00", "$32.00", "$27.00", 
 let wishList = []
 
 btnProductList.onclick=function(){
-   lblProductList.value = products
+    lblProductList.value = products
     lblPriceList.value = productPrice
 }
-
-
 
 btnViewWishList.onclick = function(){
   lblWishList.value = wishList
 }
-
 
 btnAddItem.onclick=function(){
    let userProduct = inptProduct.value
