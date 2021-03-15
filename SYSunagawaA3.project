@@ -12,7 +12,7 @@
       "androidAliasPassword": "mypassword",
       "androidKeystore": "certificates/android.p12",
       "androidKeystorePassword": "mypassword",
-      "background": "",
+      "background": "9",
       "backgroundimage": "",
       "browserwarnmsg": "Please use Google Chrome, Apple Safari or another supported browser.",
       "cached_js": null,
@@ -41,6 +41,14 @@
             "functionCompare",
             "functionCompare.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "dogStore",
+            "dogStore.json"
+          ]
         }
       ],
       "configxml": null,
@@ -62,7 +70,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "cityWhile",
+      "firstform": "dogStore",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
