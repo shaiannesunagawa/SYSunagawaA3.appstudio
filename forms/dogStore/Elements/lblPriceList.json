@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4",
-  "appearance": "primary",
+  "appearance": "light",
   "backgroundColor": "#2581c4",
   "borderRadius": "5",
   "bottom": "auto",
