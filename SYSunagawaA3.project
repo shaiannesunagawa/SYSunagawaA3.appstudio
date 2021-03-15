@@ -12,7 +12,7 @@
       "androidAliasPassword": "mypassword",
       "androidKeystore": "certificates/android.p12",
       "androidKeystorePassword": "mypassword",
-      "background": "",
+      "background": "9",
       "backgroundimage": "",
       "browserwarnmsg": "Please use Google Chrome, Apple Safari or another supported browser.",
       "cached_js": null,
@@ -32,6 +32,22 @@
             "forms",
             "forReverseStates",
             "forReverseStates.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "functionCompare",
+            "functionCompare.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "dogStore",
+            "dogStore.json"
           ]
         }
       ],
@@ -54,7 +70,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "forReverseStates",
+      "firstform": "dogStore",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
