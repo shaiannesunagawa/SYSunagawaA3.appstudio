@@ -1,3 +1,4 @@
+/*
 let cities = []
 
 let i = 0
@@ -13,4 +14,4 @@ while (doneWithCities == false) {
 while (i < cities.length){
   console.log(cities[i])
   i++
-}
+}*/
