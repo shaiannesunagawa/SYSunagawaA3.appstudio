@@ -33,6 +33,14 @@
             "forReverseStates",
             "forReverseStates.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "functionCompare",
+            "functionCompare.json"
+          ]
         }
       ],
       "configxml": null,
@@ -54,7 +62,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "forReverseStates",
+      "firstform": "cityWhile",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
